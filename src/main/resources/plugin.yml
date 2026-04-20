@@ -2,19 +2,10 @@ name: SvatekPlugin
 version: 1.0
 main: me.monty.svatek.SvatekPlugin
 api-version: '1.21'
-
-# Informace o autorovi
 author: Monty
-# Pokud bys na tom dělal s kamarádem, můžeš použít: authors: [Monty, Kamos]
-
-# Popis pluginu (zobrazí se v konzoli a v /version SvatekPlugin)
 description: Plugin na státní svátky pouze česko
-website: https://discord.gg/T7UrGjyrsf # Sem muzes dat odkaz na svuj web nebo GitHub
-
-# Závislosti (bez PlaceholderAPI by plugin nefungoval, tak to tu musí být)
+website: https://discord.gg/SCNSyxAVzV
 depend: [PlaceholderAPI]
-
-# Práva (pokud bys pozdeji chtel pridat admin prikazy)
 permissions:
   svatek.view:
     description: Umoznuje hracum videt svatek (zakladni pravo)
