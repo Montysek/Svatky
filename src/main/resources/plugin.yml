@@ -4,7 +4,7 @@ main: me.monty.svatek.SvatekPlugin
 api-version: '1.21'
 author: Monty
 description: Plugin na státní svátky pouze česko
-website: https://discord.gg/SCNSyxAVzV
+website: https://discord.gg/Cvf4wMwmZx
 depend: [PlaceholderAPI]
 permissions:
   svatek.view:
