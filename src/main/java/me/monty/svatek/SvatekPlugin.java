@@ -6,7 +6,6 @@ public class SvatekPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Kontrola, jestli je na serveru PlaceholderAPI
         if (getServer().getPluginManager().getPlugin("PlaceholderAPI") != null) {
             new SvatekExpansion().register();
             getLogger().info("SvatekPlugin (me.monty.svatek) byl uspesne zapnut!");
